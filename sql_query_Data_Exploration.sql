@@ -1,5 +1,8 @@
 -- Data Exploration --
 
+use sql_project_p1
+
+
 -- how many sales we have --
 select count(*) "Total Sales" from retail_sales;
 
