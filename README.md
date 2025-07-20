@@ -232,6 +232,6 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 
 
 ### Connect :
-- **LinkedIn**: [Connect with me professionally](www.linkedin.com/in/sahilsdeshpande)
+- **LinkedIn**: [Connect with me professionally](https://in.linkedin.com/in/sahilsdeshpande)
 
 Thank you for your support, and I look forward to connecting with you!
