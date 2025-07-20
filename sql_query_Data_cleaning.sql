@@ -1,5 +1,8 @@
 -- checking null values (Data cleaning) --
 
+use sql_project_p1
+
+
 SELECT * FROM retail_sales
 where transactions_id is null;
 
@@ -32,5 +35,20 @@ where cogs is null;
 
 SELECT * FROM retail_sales;
 
-use sql_project_p1
+--OR--
+
+SELECT * FROM retail_sales
+WHERE 
+    sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
+    gender IS NULL OR age IS NULL OR category IS NULL OR 
+    quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
+
+-- Deleting NULL values -- 
+
+DELETE FROM retail_sales
+WHERE 
+    sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
+    gender IS NULL OR age IS NULL OR category IS NULL OR 
+    quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
+
 
